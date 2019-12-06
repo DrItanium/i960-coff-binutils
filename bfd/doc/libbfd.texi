@@ -7,7 +7,7 @@ They are not intended for export, but are documented here for
 completeness.
 
 @findex bfd_write_bigendian_4byte_int
-@subsubsection @code{bfd_write_bigendian_4byte_int}
+@subsection @code{bfd_write_bigendian_4byte_int}
 @strong{Synopsis}
 @example
 bfd_boolean bfd_write_bigendian_4byte_int (bfd *, unsigned int);

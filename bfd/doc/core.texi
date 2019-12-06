@@ -5,7 +5,7 @@
 These are functions pertaining to core files.
 
 @findex bfd_core_file_failing_command
-@subsubsection @code{bfd_core_file_failing_command}
+@subsection @code{bfd_core_file_failing_command}
 @strong{Synopsis}
 @example
 const char *bfd_core_file_failing_command (bfd *abfd);

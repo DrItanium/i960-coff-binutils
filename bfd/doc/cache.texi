@@ -11,7 +11,7 @@ close, closes it and opens the one wanted, returning its file
 handle.
 
 @findex BFD_CACHE_MAX_OPEN macro
-@subsubsection @code{BFD_CACHE_MAX_OPEN macro}
+@subsection @code{BFD_CACHE_MAX_OPEN macro}
 @strong{Description}@*
 The maximum number of files which the cache will keep open at
 one time.

@@ -24,7 +24,7 @@ The BFD contains other BFDs and an optional index.
 The BFD contains the result of an executable core dump.
 
 @findex bfd_check_format
-@subsubsection @code{bfd_check_format}
+@subsection @code{bfd_check_format}
 @strong{Synopsis}
 @example
 bfd_boolean bfd_check_format (bfd *abfd, bfd_format format);

@@ -2,7 +2,7 @@
 These are the functions that handle initializing a BFD.
 
 @findex bfd_init
-@subsubsection @code{bfd_init}
+@subsection @code{bfd_init}
 @strong{Synopsis}
 @example
 void bfd_init (void);

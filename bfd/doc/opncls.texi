@@ -2,7 +2,7 @@
 
 
 @findex bfd_openr
-@subsubsection @code{bfd_openr}
+@subsection @code{bfd_openr}
 @strong{Synopsis}
 @example
 bfd *bfd_openr (const char *filename, const char *target);

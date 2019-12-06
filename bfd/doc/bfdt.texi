@@ -322,7 +322,7 @@ returns the file name.
 
 
 @findex bfd_get_reloc_upper_bound
-@subsubsection @code{bfd_get_reloc_upper_bound}
+@subsection @code{bfd_get_reloc_upper_bound}
 @strong{Synopsis}
 @example
 long bfd_get_reloc_upper_bound (bfd *abfd, asection *sect);
