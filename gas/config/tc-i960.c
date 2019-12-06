@@ -229,7 +229,7 @@ const char FLT_CHARS[] = "fFdDtT";
    instructions into separate compare and branch instructions when a 13-bit
    displacement won't hack it.
  */
-const relax_typeS md_relax_table[] =
+const relax_typeS * md_relax_table =
 {
   {0, 0, 0, 0},			/* State 0 => no more relaxation possible */
   {4088, -4096, 0, 2},		/* State 1: conditional branch (cobr) */
